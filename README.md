@@ -1,3 +1,1 @@
-
-# Proyecto de Desarrollo - Version main
-# Proyecto de Desarrollo - Version conflicto
+# Proyecto de Desarrollo de Software
