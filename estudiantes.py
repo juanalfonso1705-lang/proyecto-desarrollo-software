@@ -1,9 +1,10 @@
-def mejor_estudiante(estudiantes):
+   def mejor_estudiante(estudiantes):
     if not estudiantes:
         return None
-    
+
     mejor = estudiantes[0]
     for estudiante in estudiantes:
-        if estudiante["promedio"] > mejor["promedio"]:
+        if calcular_promedio(estudiante) > calcular_promedio(mejor):
             mejor = estudiante
+
     return mejor
